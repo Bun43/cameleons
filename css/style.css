@@ -1,0 +1,106 @@
+* body {
+    width: 900px;
+    margin: auto;
+    background-color: #2f3848;
+    font-family: 'Open Sans';
+    src: url(https://fonts.google.com/specimen/Open+Sans);
+}
+.titre {
+    background-color: #f05768;
+    border-bottom: 2px solid white;
+    border-radius: 0px 0px 5px 5px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    }
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: yellowgreen;
+    font-weight: bold;
+    gap: 10px;
+    margin-top: 1em;
+    }
+.menu img {
+    width: 20px;
+    height: 20px;
+    }
+.onglet1 {
+    width: 5%;
+}    
+.onglet2 {
+    width: 5%;
+}
+.onglet3 {
+    width: 5%;
+}
+.onglet4 {
+    width: 85%;
+    align-items: flex-end;
+    text-align: right;
+}        
+h2 {
+    color: #00ccff;
+    font-style: italic;
+}
+p {
+    color: white;
+}
+a {
+    color: yellowgreen;
+    text-decoration-line: underline;
+}
+.cameleon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.cameleon1 {
+    width: 100%;
+    height: 100%;
+}
+.cameleon2 {
+    width: 30%;
+    color: white;
+    background-color: #f05768;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+h3 {
+    color: #00ccff;
+    text-transform: uppercase;
+}
+figure {
+        background-color: #004488;
+        width: 60%;
+        margin: 0.5em auto;
+        padding: 10px;
+    }
+/* .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+.mosaique {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+/* .legend {
+    width: 40%;
+} */
+figure {
+    padding: 2em;
+}
+figure p {
+    color: yellowgreen;
+}
+figure div {
+    border-bottom: 1px solid #00ccff;
+}
